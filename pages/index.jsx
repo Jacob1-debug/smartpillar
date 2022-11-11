@@ -310,15 +310,15 @@ export default function Home() {
               <form action='#' className="absolute w-full bg-white p-10 shadow-2xl rounded space-y-[50px]">
                 <div className="flex flex-col">
                   <label htmlFor="name" className='font-Akaya_Kanadaka text-[18px] text-[#4F4F4F]'>Name</label>
-                  <input type="text" name="name" id="name" className='border-b-[2px] border-[#D7D7D7] font-Akaya_Kanadaka text-[18px] text-[#4F4F4F' placeholder='' />
+                  <input type="text" name="name" id="name" className='border-b-[2px] border-[#D7D7D7] font-Akaya_Kanadaka text-[18px] text-[#4F4F4F] focus-within:outline-none' placeholder='' />
                 </div>
                 <div className="flex flex-col">
                   <label htmlFor="name" className='font-Akaya_Kanadaka text-[18px] text-[#4F4F4F]'>Email</label>
-                  <input type="text" name="name" id="name" className='border-b-[2px] border-[#D7D7D7] font-Akaya_Kanadaka text-[18px] text-[#4F4F4F' placeholder='' />
+                  <input type="text" name="name" id="name" className='border-b-[2px] border-[#D7D7D7] font-Akaya_Kanadaka text-[18px] text-[#4F4F4F] focus-within:outline-none' placeholder='' />
                 </div>
                 <div className="flex flex-col">
                   <label htmlFor="name" className='font-Akaya_Kanadaka text-[18px] text-[#4F4F4F]'>Message</label>
-                  <textarea  type="text" name="name" id="name" className='border-b-[2px] border-[#D7D7D7] font-Akaya_Kanadaka text-[18px] text-[#4F4F4F' placeholder='' />
+                  <textarea  type="text" name="name" id="name" className='border-b-[2px] border-[#D7D7D7] font-Akaya_Kanadaka text-[18px] text-[#4F4F4F] focus-within:outline-none' placeholder='' />
                 </div>
                 <button className='uppercase font-Cabin font-semibold text-[16px] text-white bg-[#6246E4] px-[44px] py-5 rounded-[10px]'>Send</button>
               </form>
