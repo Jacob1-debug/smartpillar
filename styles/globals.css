@@ -1,0 +1,43 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Abyssinica+SIL&family=Actor&family=Akaya+Kanadaka&family=Allura&family=Amatic+SC:wght@400;700&family=Cabin:wght@400;500;700&family=Leckerli+One&display=swap');
+
+
+/* TailwindCSS init */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body {
+  scroll-behavior: smooth;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.slick-slide{
+  padding: 25px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}

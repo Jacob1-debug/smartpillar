@@ -1,0 +1,23 @@
+.header__root{
+  height: 100px;
+  background: rgba(249, 249, 249, 0.4);
+  backdrop-filter: blur(30px);
+}
+
+.header__logo{
+  font-family: 'Leckerli One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 58px;
+  color: #000000;
+}
+.header__logo_p{
+  color: #962121;
+}
+.header__menu{
+  color: #4F4F4F;
+}
+.header__menu_active{
+  color: #6246E4;
+}

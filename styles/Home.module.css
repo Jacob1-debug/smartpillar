@@ -1,0 +1,28 @@
+.home_hero__root{
+  min-height: 100vh;
+  background-image: url('/assets/images/hero_bg.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home_hero_contnet{
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(80px);
+}
+.hero__left_title{
+  font-family: 'Abyssinica SIL';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 90px;
+  color: #181818;
+}
+.hero__left_description{
+  font-family: 'Akaya Kanadaka';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: #6A6A6A;
+}
