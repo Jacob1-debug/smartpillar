@@ -103,7 +103,7 @@ export default function Home() {
         <div className="grid grid-cols-3 gap-[20px] mt-[60px]">
           {
             servicesCard?.map((service, index) => (
-                <div key={index} className="group col-span-1 bg-[#F7FAFD] rounded-[30px] px-[18px] py-[20px] cursor-pointer hover:bg-[#6246E4] transition-all duration-150">
+                <div  className="group col-span-1 bg-[#F7FAFD] rounded-[30px] px-[18px] py-[20px] cursor-pointer hover:bg-[#6246E4] transition-all duration-150">
                   <div className="h-[220px] bg-center bg-cover flex justify-center items-center">
                     <img src={service.image} alt="" />
                   </div>

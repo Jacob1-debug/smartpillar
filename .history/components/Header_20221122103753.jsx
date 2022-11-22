@@ -21,7 +21,7 @@ export default function Header() {
         <div className="menu">
           <ul className='flex space-x-10'>
             { menuItems?.map((menu, index) => (
-              <li key={index}><Link href={menu.link}><span className={`${styles.header__menu} font-Cabin font-semibold`}>{menu.label}</span></Link></li>
+              <li key={}><Link href={menu.link}><span className={`${styles.header__menu} font-Cabin font-semibold`}>{menu.label}</span></Link></li>
             ))}
           </ul>
         </div>
