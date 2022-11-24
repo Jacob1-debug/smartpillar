@@ -27,7 +27,7 @@ export default function Footer() {
       </div>
       <div className="h-[3px] bg-[#E4E4E4] mt-[14px]"/>
       <div className="py-[38px] container mx-auto flex justify-between">
-        <p className='font-Cabin font-semibold text-[14px] leading-[14px] text-[#4F4F4F]'>@ All right reserved 2020 <span>Design By Rotich Jacobi</span></p>
+        <p className='font-Cabin font-semibold text-[14px] leading-[14px] text-[#4F4F4F]'>@ All right reserved 2020 <span>Design By Rotich Jacob</span></p>
         <div className="flex items-center">
           <div className="h-[2px] w-[100px] bg-[#E9E9E9]"/>
           <p className='ml-5 font-Akaya_Kanadaka text-[#4F4F4F]'>FOLLOW US</p>
